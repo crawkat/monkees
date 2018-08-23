@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700|Alfa+Slab+One');
+
+.container-fluid{
+	font-family: "Tajawal", san-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+    background: url(/images/gold-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 70px;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+/*---------navigation--------*/
+
+#nav{
+	margin:0;
+
+}
+
+#nav li{
+	padding: 0;  /* removes visible edges when in hover state */
+}
+
+.ui-menu-color-home{
+	background-color: #937949;
+
+}
+
+.ui-menu-color-music{
+	background-color: #937949;
+
+}
+
+.ui-menu-color-photos{
+	background-color: #937949;
+
+}
+
+.ui-menu-color-video{
+	background-color: #937949;
+
+}
+
+.nav-item{
+	height: 40px;
+	text-align: center;
+	padding: 0px;
+}
+
+
+.nav-item a{
+	width:100%; /* the clickable area */
+	text-decoration: none; /* removes link underline*/
+	color: #ffffff;
+	height: 40px;
+	border-bottom: 1px solid #ffffff; /* adds line between menu items on small screen*/
+}
+
+.nav-item span{
+	display: block;  /* will occupy parent container */
+	width: 100%;
+	padding-top: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 3px; /* kerning */
+
+}
+
+/*-------- hover -------*/
+
+.hvr-sweep-to-right:before{
+	background: rgba(0, 0, 0, 0.2);
+	height: 39px;
+}
+
+/*--------general styles------*/
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+
+/*------section------*/
+
+.cover-photo{
+	margin-top: 0;
+	padding:0;
+    background: url(/images/bw-monkees.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/*------jumbotron------*/
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.jumbotron h1{
+	color: #ffffff;
+}
+
+.jumbotron{
+	background-color: #505050ad; /*rgba(0,0,0,0.5);*/
+	margin-top: 300px;
+	padding-top: 10px;
+	text-align: center;
+	height:330px;
+	width:100%;
+}
+
+.container-fluid .jumbotron {
+	border-radius: 0;
+}
+
+
+.display-4{
+	font-family: 'Alfa Slab One', cursive;
+	color:#ffffff;
+}
+
+.jumbotron p.sub-head{
+	margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 300;
+    color:#ffffff;
+}
+
+
+
+.jumbotron p.secondary-text{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: "Tajawal", san-serif;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.jumbotron hr.my-4{
+	width: 60px;
+	border-color: #937949;
+	border-width: 3px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.btn-primary{
+	border-radius: 0;
+	border-color:#937949;
+	color: #ffffff;
+}
+
+.btn-lg{
+	background-color: #937949;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 3px; /* kerning */
+
+}
+
+.btn-lg:hover{
+	background-color: #ffffff;
+	color: transparent;
+	border-color: #ffffff;
+}
+
+
+.btn-lg:hover,
+.btn-lg:active
+.btn-lg:focus{
+	border-radius: 0;
+	border-color: #ffffff;
+	color: #937949;
+}
+
+/*--------music--------*/
+
+.music-image{
+	margin-top:0;
+	background: url(/images/bw-monkees-crop.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    min-height:350px;
+    background-size: fill;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.bar{
+	background-color: #937949;
+	width:100%;
+	height:20px;
+}
+
+.song-title {
+	margin-top: 25px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	color: #937949;
+
+}
+
+
+audio{
+	margin-top:10px;
+ 	margin-left: 60px;
+ 	margin-bottom: 20px;
+ 	width: 80%;
+ 	color: #ffffff;
+ }
+
+.controls{
+	color: #505050;
+	margin-bottom: 30px;
+}
+
+/*--------photos--------*/
+
+.container-fluid-photos{
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.gallery{
+    padding:20px;
+}
+
+
+
+/*--------video--------*/
+
+
+
+.video-player{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width:100%;
+	align-content: center;
+
+}
+
+.video-header{
+	text-transform: uppercase;
+	color:#a0a0a0;
+	margin-top: 40px;
+	margin-left: 20px;
+	padding:20px;
+
+}
+
+.video-text{
+	font-size: 16px;
+	color: #505050;
+	margin-left: 20px;
+	padding:10px 20px 20px;
+
+}
+
+.sub-heading{
+	margin-left: 20px;
+	padding:10px 20px;
+	font-size: 24px;
+	colour:#505050;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+
+
+.video-target{
+	padding-top: 30px;
+}
+
+/*----------contact---------*/
+
+.bg-color-contact{
+	background-color: #505050;
+}
+
+.contact-heading{
+	font-family: "Tajawal", san-serif;
+	font-weight: 400;
+	color:#ffffff;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.form-sub{
+	font-family: "Tajawal", san-serif;
+	font-weight: 400;
+	color:#A0A0A0;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.center-form{	
+	padding-top: 10px;
+	margin: 0 auto;
+	height:300px;
+	max-width: 70%;
+}
+
+button[type="submit"]{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	background-color:#A0A0A0;
+	color:#505050;
+}
+
+
+
+
+
+/*----------footer---------*/
+
+footer{
+	background-color: #A0A0A0;
+	color:#505050;	
+	min-height: 100px;
+	margin: 0;
+}
+
+footer .cart {
+	text-align: center;
+}
+
+footer .cart i {
+	color:#505050;
+	text-align: center;
+	font-size: 20px;
+	}
+
+footer .cart i:hover {
+	color:#ffffff;
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+}
+
+footer .list-inline {
+	text-align: center;
+}
+
+footer p{
+	text-align:center;
+
+}
+.white-logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+    background: url(images/white-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 50px;
+}
+
+
+.social-links{
+	padding-bottom: 10px;
+}
+
+.social-links li a i{
+	width: 25px;
+	height:25px;  /* equal width and height adds a square background*/
+	padding:11px 0;
+	border-radius: 50%; /* 50% border radius makes the square backgrounf into a circle*/
+	font-size: 13px;
+	line-height: 4px;
+	text-align:center;
+	color:#A0A0A0;
+	background:#505050;
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+}
+
+.social-links li a i:hover{
+	color:#ffffff;
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+}
+
+
+
+
+
+.social,
+.hire-us{
+	
+ font-family: "Tajawal", san-serif;
+ font-weight: 300;
+ font-size: 15px;
+ text-align: center;
+ padding-top: 10px;
+
+}
+
+
+
+/*----------media queries---------*/
+@media (max-width: 768px){
+
+.center-form{
+	padding-top: 30px;
+	margin: 0 auto;
+	height:200px;
+	max-width: 50%;
+}
+
+.cover-photo{
+	margin-top: 0;
+	padding:5px;
+    background-position: top;
+    background-size: 100%;
+    min-height: 200px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.jumbotron{
+	min-height:350px;
+	margin-top:200px;
+	background-color: #505050;
+}
+
+.song-title {
+	margin-left: 50px;
+
+}
+
+.audio{
+	margin-top:10px;
+ 	margin-left: 40px;
+ 	margin-bottom: 5px;
+ 
+ }
+ 
+.video-header{
+	margin-top: 5px;
+	margin-left: 20px;
+	padding:20px;
+
+}
+
+.sub-heading{
+	margin-left: 20px;
+	padding-left:20px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.video-target{
+	padding-top: 0;
+}
+
+
+}
