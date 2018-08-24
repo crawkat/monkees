@@ -377,7 +377,7 @@ footer p{
 .white-logo{
 	margin-top: 10px;
 	margin-bottom: 10px;
-    background: url(images/white-logo.png);
+    background: url(/images/white-logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
