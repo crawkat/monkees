@@ -11,7 +11,7 @@
 .logo{
 	margin-top: 10px;
 	margin-bottom: 10px;
-    background: url(images/gold-logo.png);
+    background: url(/images/gold-logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -101,7 +101,7 @@
 .cover-photo{
 	margin-top: 0;
 	padding:0;
-    background: url(images/bw-monkees.jpg);
+    background: url(/images/bw-monkees.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
