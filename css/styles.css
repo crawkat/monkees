@@ -202,7 +202,7 @@
 
 .music-image{
 	margin-top:0;
-	background: url(images/bw-monkees-crop.jpg);
+	background: url(/images/bw-monkees-crop.jpg);
 	background-position: center;
     background-repeat: no-repeat;
     min-height:350px;
